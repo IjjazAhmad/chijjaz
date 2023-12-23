@@ -1,0 +1,143 @@
+
+
+.b{
+    width: 50px !important;
+}
+
+.serviceBox{
+    background-color: #1e2025;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    min-height: 20rem;
+    padding: 10px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.serviceBox .service-icon{
+    font-size: 33px;
+    line-height: 111px;
+    height: 120px;
+    width: 120px;
+    margin: 0 0 20px;
+    border: 4px dotted #ff638f;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+} 
+.serviceBox .service-icon:before,
+.serviceBox .service-icon:after{
+    content: '';
+    background: linear-gradient(to right bottom,#ff638f,#e50031);
+    border-radius: inherit;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    z-index: -1;
+}
+.serviceBox .service-icon:after{
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    left: 14px;
+    right: 14px;
+    top: 14px;
+    bottom: 14px;
+}
+.serviceBox .title{
+    color: #e50031;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center !important;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.serviceBox .title:after{
+    content: '';
+    background-color: #333;
+    height: 2px;
+    width: 60px;
+    margin: 3px auto 0;
+    clear: both;
+    display: block;
+}
+.serviceBox .description{
+    color: white;
+    font-size: 13px;
+    line-height: 23px;
+    margin: 0 10px;
+    
+}
+.serviceBox.green .service-icon{ border-color: #2eea93; }
+.serviceBox.green .service-icon:before{ background: linear-gradient(to right bottom,#2eea93,#049e68); }
+.serviceBox.green .title{ color: #049e68; }
+.serviceBox.blue .service-icon{ border-color: #3aadff; }
+.serviceBox.blue .service-icon:before{ background: linear-gradient(to right bottom,#3aadff,#0356BE); }
+.serviceBox.blue .title{ color: #0356BE; }
+.serviceBox.purple .service-icon{ border-color: #9c32ff; }
+.serviceBox.purple .service-icon:before{ background: linear-gradient(to right bottom,#9c32ff,#4A15A7); }
+.serviceBox.purple .title{ color: #4A15A7; }
+
+.serviceBox.Burnt-sienna .service-icon{ border-color: #E76F51; }
+.serviceBox.Burnt-sienna .service-icon:before{ background: linear-gradient(to right bottom,#E76F51,#ff6039); }
+.serviceBox.Burnt-sienna .title{ color: #E76F51; }
+
+.serviceBox.sky-blue .service-icon{ border-color: #4CC9F0; }
+.serviceBox.sky-blue .service-icon:before{ background: linear-gradient(to right bottom,#4CC9F0,#3091ae); }
+.serviceBox.sky-blue .title{ color: #4CC9F0; }
+
+.bg{
+    background-color: #1e1f26;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+
+  /* counter section */
+
+.counter-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/counter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 40px;
+    min-height: 50vh;
+    z-index: -1;
+}
+
+.counter-section .icon{
+    font-size: 40px;
+    border: 5px solid white;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    padding: 20px;
+}
+ 
+
+.counter-section  .counter {
+    text-align: center;
+  }
+  
+.counter-section  .counter-value {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+ .counter-section .counter-label {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
